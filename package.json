@@ -1,6 +1,6 @@
 {
   "name": "qjson",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "goodseller <goodseller@users.noreply.github.com>",
   "description": "javascript plugin to stringify, parse javascript objects with RegExp and Date.",
   "contributors": [

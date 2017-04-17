@@ -64,6 +64,4 @@
   
   exports.default = exports
 
-}(typeof exports === 'undefined' ? (window.QJSON = {}) : exports))
-
-
+}(typeof module === 'undefined' ? (window.QJSON = {}) : module.exports))

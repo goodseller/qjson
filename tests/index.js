@@ -6,7 +6,7 @@ var obj = {
     today: new Date(),
     re: /(\w+)\s(\w+)/
   },
-  QJSON = (typeof exports === 'undefined') ? window.QJSON : require('../'),
+  QJSON = (typeof module === 'undefined') ? window.QJSON : require('../'),
   strfn,
   objfn
 
