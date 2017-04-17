@@ -1,25 +1,34 @@
 {
-  "name": "json-fn",
-  "version": "1.1.1",
-  "author": "Vadim Kiryukhin <vkiryukhin@gmail.com>",
-  "description": "javascript plugin to stringify, parse and clone javascript objects with Functions, RegExp and Date.",
+  "name": "qjson",
+  "version": "0.0.0",
+  "author": "goodseller <goodseller@users.noreply.github.com>",
+  "description": "javascript plugin to stringify, parse javascript objects with RegExp and Date.",
   "contributors": [
     {
-      "name": "Vadim Kiryukhin",
-      "email": "vkiryukhin@gmail.com"
+      "name": "goodseller",
+      "email": "goodseller@users.noreply.github.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vkiryukhin/jsonfn"
+    "url": "https://github.com/goodseller/qjson"
   },
-  "main":"./jsonfn",
+  "main":"./index.js",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
   "keywords": [
-    "stringify object with function",
+    "query",
+    "JSON",
+    "parse",
+    "Date",
+    "RegExp",
     "stringify object with regexp",
-    "stringify with function",
-    "JSON with regex",
-    "JSON stringify with functions"
+    "JSON regex",
+    "JSON RegExp",
+    "JSON parse regex",
+    "JSON parse Date",
+    "JSON parse RegExp"
   ],
   "license": "MIT",
   "engine": {
